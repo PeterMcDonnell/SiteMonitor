@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMonitor", "SiteMonitor\SiteMonitor.csproj", "{0FF4792F-2E34-4E07-8949-5BE54DB47DAA}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ResetIISApp", "ResetIISApp\", "{B23BF297-6681-4155-919B-09B49F80CD02}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "Svn"
+		SccAuxPath = "Svn"
+		SccLocalPath = "Svn"
+		SccProvider = "SubversionScc"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{0FF4792F-2E34-4E07-8949-5BE54DB47DAA}|SiteMonitor.dll;{49C84D55-5EC4-4923-B4E9-EDF29A9D9BFA}|SiteStats.dll;{1231A412-3078-4EEF-80D2-A7C61901A5EB}|SiteMonitorData.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ResetIISApp"
+		Debug.AspNetCompiler.PhysicalPath = "ResetIISApp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ResetIISApp\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ResetIISApp"
+		Release.AspNetCompiler.PhysicalPath = "ResetIISApp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ResetIISApp\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1827"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteStats", "SiteStats\SiteStats.csproj", "{49C84D55-5EC4-4923-B4E9-EDF29A9D9BFA}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SiteMonitorServices", "SiteMonitorServices\", "{6A748EDB-E7FE-402B-B737-4D55A71A43EA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{0FF4792F-2E34-4E07-8949-5BE54DB47DAA}|SiteMonitor.dll;{1231A412-3078-4EEF-80D2-A7C61901A5EB}|SiteMonitorData.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SiteMonitorServices"
+		Debug.AspNetCompiler.PhysicalPath = "SiteMonitorServices\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SiteMonitorServices\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SiteMonitorServices"
+		Release.AspNetCompiler.PhysicalPath = "SiteMonitorServices\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SiteMonitorServices\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50029"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteMonitorData", "SiteMonitorData\SiteMonitorData.csproj", "{1231A412-3078-4EEF-80D2-A7C61901A5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROIWindowsService", "ROIWindowsService\ROIWindowsService.csproj", "{4B7CFAB1-FB43-4641-9CEF-8F78A361FF5F}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FF4792F-2E34-4E07-8949-5BE54DB47DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF4792F-2E34-4E07-8949-5BE54DB47DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF4792F-2E34-4E07-8949-5BE54DB47DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF4792F-2E34-4E07-8949-5BE54DB47DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23BF297-6681-4155-919B-09B49F80CD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23BF297-6681-4155-919B-09B49F80CD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23BF297-6681-4155-919B-09B49F80CD02}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23BF297-6681-4155-919B-09B49F80CD02}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{49C84D55-5EC4-4923-B4E9-EDF29A9D9BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C84D55-5EC4-4923-B4E9-EDF29A9D9BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C84D55-5EC4-4923-B4E9-EDF29A9D9BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C84D55-5EC4-4923-B4E9-EDF29A9D9BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A748EDB-E7FE-402B-B737-4D55A71A43EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A748EDB-E7FE-402B-B737-4D55A71A43EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A748EDB-E7FE-402B-B737-4D55A71A43EA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A748EDB-E7FE-402B-B737-4D55A71A43EA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1231A412-3078-4EEF-80D2-A7C61901A5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1231A412-3078-4EEF-80D2-A7C61901A5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1231A412-3078-4EEF-80D2-A7C61901A5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1231A412-3078-4EEF-80D2-A7C61901A5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B7CFAB1-FB43-4641-9CEF-8F78A361FF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7CFAB1-FB43-4641-9CEF-8F78A361FF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B7CFAB1-FB43-4641-9CEF-8F78A361FF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7CFAB1-FB43-4641-9CEF-8F78A361FF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
